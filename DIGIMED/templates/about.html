@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us - DIGIMED</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+            background-color: #121212;
+            color: white;
+        }
+        .navbar {
+            background-color: #1f1f1f;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            color: black;
+            margin-top: 0;
+            margin-left: 10px;
+        }
+
+        .myimg {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+        }
+      .header {
+        background: linear-gradient(to right, #007bff, #d63384);
+        padding: 40px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+      .content-box {
+        background-color: #1e1e1e;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+        <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <div class="logo">
+                <img class="myimg" src="{{ url_for('static', filename='img3.png') }}" alt="Logo" height="40" class="me-2">
+            </div>
+
+            <a class="navbar-brand" href="#">DIGIMED</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('contact') }}">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('developer') }}">Developer</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-4">
+      <div class="header">
+        <h1 class="text-white">About DIGIMED</h1>
+        <p>
+    Welcome to DIGIMED, a machine learning  medicine recommendation system designed to make healthcare more accessible and informed. Our platform helps users identify potential health concerns by analyzing their symptoms and providing accurate medicine recommendations, along with essential health insights, precautions, and treatment guidance. By combining cutting-edge ML technology with medical expertise, we aim to revolutionize digital healthcare and empower individuals to take control of their well-being.
+
+</p>
+      </div>
+
+      <div class="content-box">
+        <h3>Our Vision</h3>
+        <p><p>
+    We envision a future where technology and healthcare work seamlessly together to provide accessible, intelligent, and personalized medical guidance. Our AI-powered medicine recommendation system helps users analyze their symptoms and receive accurate medicine suggestions, health insights, and treatment guidance. By leveraging artificial intelligence and medical expertise, we strive to make healthcare more efficient, informed, and easily accessible for everyone.
+</p>
+</p>
+      </div>
+
+      <div class="content-box">
+        <h3>Who We Are</h3>
+        <p>DIGIMED is an Ml powered symptom diagnosis platform designed to provide quick and reliable health insights. Our goal is to make healthcare more accessible by leveraging artificial intelligence for accurate symptom analysis and medicine recommendations.</p>
+      </div>
+
+      <div class="content-box">
+        <h3>Meet Our Team</h3>
+        <ul>
+          <li><b>Saad Bin Nurullah Qasemi</b> - Machine Learning Specialist</li>
+          <li><b>Md Neaz Morshed</b> - Data Expert</li>
+          <li><b>Md Hasibul Islam</b> - UX Designer</li>
+        </ul>
+          </br>
+            Together, we are committed to making healthcare smarter, accessible, and personalized for everyone.
+          </br>
+      </div>
+
+      <div class="content-box">
+        <h3>Our Mission</h3>
+        <p>Our mission is to revolutionize medical assistance through technology.</br> We aim to:</br>
+            ✅ Offer instant, ML-driven health assessments based on symptoms.</br>
+            ✅ Provide accurate medicine recommendations to guide treatment decisions.</br>
+            ✅ Enhance public health awareness with informative resources.</br>
+            ✅ Ensure user-friendly and secure access to health data.</br>
+                </br>
+                    We are dedicated to helping users make informed health choices without unnecessary complexity.
+        </p>
+      </div>
+
+      <div class="content-box">
+        <h3>What Our Project Does</h3>
+        <p>Our platform is an ML-powered medicine recommendation system that helps users identify potential health concerns and suggests appropriate medications based on their symptoms. It also provides detailed health insights, precautions, and treatment guidance to promote informed decision-making.</div>
+
+      <div class="content-box">
+        <h3>Our team is dedicated to:</h3>
+        <p> ✅ Developing and refining AI models for accurate symptom-based medical recommendations.</br>
+            ✅ Ensuring reliable and evidence-based medicine suggestions.</br>
+            ✅ Continuously expanding our medical database to improve prediction accuracy.</br>
+            ✅ Providing educational resources to help users understand their health better.</br>
+            ✅ Enhancing user experience with intuitive and secure digital healthcare solutions.</br>
+        </p>
+      </div>
+
+      <div class="content-box">
+        <h3>How We Do It</h3>
+        <p>
+               🔍 Symptom Analysis: Users enter their symptoms, and our AI-powered model analyzes them against a vast medical database.</br>
+
+            💊 Medicine Recommendations: Based on the input, the system suggests possible medications that align with the reported symptoms, ensuring evidence-based accuracy.</br>
+
+            📖 Educational Support: Along with recommendations, we provide detailed insights into the illness, precautions, and treatment options to enhance health literacy.</br>
+
+            🔒 Data Security: We prioritize user privacy, ensuring all health data remains confidential and protected.</br>
+            </p>
+            </div>
+
+
+      <div class="content-box">
+        <h3>Join Us on This Journey</h3>
+        <p>At DIGIMED, we are dedicated to empowering individuals with the right knowledge and tools to take charge of their health. Whether you're looking for quick symptom insights or detailed medical guidance, we are here to assist you every step of the way.</br>
+        Thank you for trusting us with your health. Together, let's build a healthier tomorrow!
+        </p>
+        <p>Thank you for choosing [Your Website Name] as your trusted health companion. We are here to empower you with knowledge, support, and a brighter, healthier future.</p>
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
